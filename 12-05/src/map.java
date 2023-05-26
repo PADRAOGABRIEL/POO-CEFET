@@ -30,7 +30,7 @@ public class map {
 
         while(it.hasNext()){
             String str = (String) it.next();
-            if (str.startsWith("a")){
+            if (str.startsWith("A")){
                 soma += (int) x.get(str);
                 cont++;
             }
