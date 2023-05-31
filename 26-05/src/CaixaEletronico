@@ -1,0 +1,13 @@
+public class CaixaEletronico {
+   public static void main(String[] args) {
+       Conta c = new Conta();
+       c.depositar(100);
+       Scanner sc = new Scanner(System.in);
+       System.out.println("Quanto quer sacar");
+       double d = sc.nextDouble();
+       c.debitar(d);
+       System.out.println("liberando" + d + "reais para o cliente");
+       System.out.println('Fim');
+   }
+}
+
